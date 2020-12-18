@@ -4,7 +4,7 @@ This is a simple docker container that listens to port 8888 and outputs the requ
 
 # Installation
 
-1. Clone the repository
+1. Clone the repository: `git clone git@github.com:alexpunct/simple-log-request-docker.git`
 2. Set permissions: `chmod +x run.sh build.sh`
 3. Build the docker image `./build.sh`
 4. Run the container `./run.sh`
