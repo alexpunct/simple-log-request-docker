@@ -9,4 +9,8 @@ This is a simple docker container that listens to port 8888 and outputs the requ
 3. Build the docker image `./build.sh`
 4. Run the container `./run.sh`
 
-Now you can send a request to your server and see the it. Useful for webhooks debugging.
+Now you can send a request to your server (port 8888 default) and see it. Useful for webhooks debugging.
+
+### Optional
+
+You can change the port by editing the `server.js` and `run.sh` files. Ideally you'd configure this via environment variables but I don't have time now :)
